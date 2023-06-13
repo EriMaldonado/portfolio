@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b04688c5.css",
-    "main.js": "/portfolio/static/js/main.57b3a121.js",
+    "main.css": "/portfolio/static/css/main.0f792813.css",
+    "main.js": "/portfolio/static/js/main.976907b6.js",
     "static/js/787.fb771931.chunk.js": "/portfolio/static/js/787.fb771931.chunk.js",
     "static/media/erick.png": "/portfolio/static/media/erick.9320f87cdd9d3bb7320d.png",
     "static/media/alura-geek.png": "/portfolio/static/media/alura-geek.8c40bf68182478314c06.png",
@@ -18,10 +18,10 @@
     "static/media/principal.png": "/portfolio/static/media/principal.e40bb79a39a42db701f7.png",
     "static/media/fondo.png": "/portfolio/static/media/fondo.acb6d75e7ef9c9409a30.png",
     "static/media/contact-img.svg": "/portfolio/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
-    "static/media/logo.png": "/portfolio/static/media/logo.adee5699f1526f42b4f1.png",
     "static/media/tecnologico.jpg": "/portfolio/static/media/tecnologico.78f75a60f4a0f683115b.jpg",
     "static/media/itin.png": "/portfolio/static/media/itin.608a91222f1aab8e6978.png",
     "static/media/cisco.png": "/portfolio/static/media/cisco.b085521c173c0d99357a.png",
+    "static/media/logo.png": "/portfolio/static/media/logo.6098267abe78fd9a85bb.png",
     "static/media/revicons.eot": "/portfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
@@ -29,12 +29,12 @@
     "static/media/nav-icon2.svg": "/portfolio/static/media/nav-icon2.c734715bc91913916a1601f967847de5.svg",
     "index.html": "/portfolio/index.html",
     "static/media/nav-icon1.svg": "/portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.b04688c5.css.map": "/portfolio/static/css/main.b04688c5.css.map",
-    "main.57b3a121.js.map": "/portfolio/static/js/main.57b3a121.js.map",
+    "main.0f792813.css.map": "/portfolio/static/css/main.0f792813.css.map",
+    "main.976907b6.js.map": "/portfolio/static/js/main.976907b6.js.map",
     "787.fb771931.chunk.js.map": "/portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b04688c5.css",
-    "static/js/main.57b3a121.js"
+    "static/css/main.0f792813.css",
+    "static/js/main.976907b6.js"
   ]
 }
