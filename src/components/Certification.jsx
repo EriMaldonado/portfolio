@@ -1,5 +1,4 @@
 import React from "react";
-import { Col } from "react-bootstrap";
 import g4 from "../assets/img/frontend-g4.png";
 import cpython from "../assets/img/curso-python.png";
 import mkt from "../assets/img/gogle-mkt.png";
@@ -23,7 +22,11 @@ function Certification() {
               <h4>Ingeniería en Tecnologías de la Información</h4>
             </li>
             <li className="course-subtitle">
-              <p>2023-En Curso ESPE</p>
+              <p>
+                2023 - Octavo Semestre
+                <br />
+                En Curso ESPE
+              </p>
             </li>
           </ul>
         </div>
@@ -34,10 +37,13 @@ function Certification() {
               <img src={g4} alt="UFPR logo" />
             </li>
             <li className="course-title">
-              <h4>Formación Front end</h4>
+              <h4>Formación Frontend</h4>
             </li>
             <li className="course-subtitle">
-              <p>2023- ORACLE ONE Alura Latam</p>
+              <p>
+                2023 - ORACLE ONE <br />
+                Alura Latam
+              </p>
             </li>
           </ul>
         </div>
@@ -90,7 +96,7 @@ function Certification() {
               <h4>Tecnólogo en Administración de Empresas</h4>
             </li>
             <li className="course-subtitle">
-              <p>2019- ITSHCPP</p>
+              <p>2019 - ITSHCPP</p>
             </li>
           </ul>
         </div>

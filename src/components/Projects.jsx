@@ -4,7 +4,7 @@ import principal from "../assets/img/principal.png";
 import webso from "../assets/img/webso.png";
 import pixabay from "../assets/img/api-pixabay.png";
 import alura from "../assets/img/alura-geek.png";
-
+import rickmorty from "../assets/img/rick-morty-app.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -17,14 +17,8 @@ export const Projects = () => {
       buttonLink: "https://erimaldonado.github.io/alura-geek",
     },
     {
-      title: "Consumo API-Pixabay",
-      description: "Design & Development",
-      imgUrl: pixabay,
-      buttonLink: "https://erimaldonado.github.io/api-pixabay/",
-    },
-    {
       title: "Web Sistemas Operativos",
-      description: "Design & Development",
+      description: "Design & Development HTML5/Javascript/CSS",
       imgUrl: webso,
       buttonLink: "https://erimaldonado.github.io/web-so/",
     },
@@ -34,33 +28,19 @@ export const Projects = () => {
       imgUrl: principal,
       buttonLink: "https://erimaldonado.github.io/encriptador/",
     },
-    {
-      title: "Web Sistemas Operativos",
-      description: "Design & Development",
-      imgUrl: webso,
-      buttonLink: "https://erimaldonado.github.io/web-so/",
-    },
-    {
-      title: "Consumo API-Pixabay",
-      description: "Design & Development",
-      imgUrl: pixabay,
-      buttonLink: "https://erimaldonado.github.io/api-pixabay/",
-    },
-   ];
+  ];
   const apiprojects = [
     {
       title: "Consumo API-Pixabay",
-      description: "Design & Development",
+      description: "Development React/Javascript/CSS",
       imgUrl: pixabay,
       buttonLink: "https://erimaldonado.github.io/api-pixabay/",
     },
-  ];
-  const templates = [
     {
-      title: "Consumo API-Pixabay",
-      description: "Design & Development",
-      imgUrl: pixabay,
-      buttonLink: "https://erimaldonado.github.io/api-pixabay/",
+      title: "Consumo API- Rick-Morty-App",
+      description: "Design & Development React/Javascript/CSS",
+      imgUrl: rickmorty,
+      buttonLink: "https://erimaldonado.github.io/rick-morty-app/",
     },
   ];
 
@@ -87,7 +67,7 @@ export const Projects = () => {
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
                       variant="pills"
-                      className="nav-pills mb-5 justify-content-center align-items-center"
+                      className="nav-pills mb-4 justify-content-center align-items-center"
                       id="pills-tab"
                     >
                       <Nav.Item>
@@ -95,9 +75,6 @@ export const Projects = () => {
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="second">Consumo API</Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="third">Templates</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content
@@ -117,13 +94,6 @@ export const Projects = () => {
                         <Row>
                           {apiprojects.map((apiproject, index) => {
                             return <ProjectCard key={index} {...apiproject} />;
-                          })}
-                        </Row>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="third">
-                        <Row>
-                          {templates.map((template, index) => {
-                            return <ProjectCard key={index} {...template} />;
                           })}
                         </Row>
                       </Tab.Pane>

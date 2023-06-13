@@ -36,7 +36,6 @@ export const Contact = () => {
     e.target.reset();
   };
 
-
   return (
     <section className="contact" id="connect">
       <Container>

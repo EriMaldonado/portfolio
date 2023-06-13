@@ -23,7 +23,7 @@
 }
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 75px;
+  scroll-padding-top: 65px;
 }
 body {
   font-weight: 400;
@@ -98,21 +98,21 @@ nav.navbar {
 }
 nav.navbar img {
   height: auto;
-  width: 220px;
+  width: 75px;
 }
 nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #121212;
 }
 nav.navbar a.navbar-brand {
-  width: 9%;
+  width: 8%;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;
-  letter-spacing: 0.8px;
-  padding: 0 25px;
-  font-size: 20px;
+  letter-spacing: 0.6px;
+  padding: 0 20px;
+  font-size: 16px;
   opacity: 0.95;
 }
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
@@ -125,11 +125,11 @@ span.navbar-text {
 }
 .social-icon {
   display: inline-block;
-  margin-left: 14px;
+  margin-left: 16px;
 }
 .social-icon a {
-  width: 42px;
-  height: 42px;
+  width: 36px;
+  height: 36px;
   background: linear-gradient(90.21deg, #00030d -5.91%);
   display: inline-flex;
   border-radius: 50%;
@@ -141,8 +141,8 @@ span.navbar-text {
 }
 .social-icon a::before {
   content: "";
-  width: 42px;
-  height: 42px;
+  width: 36px;
+  height: 36px;
   position: absolute;
   background-color: #ffffff;
   border-radius: 50%;
@@ -162,11 +162,11 @@ span.navbar-text {
     hue-rotate(346deg) brightness(95%) contrast(86%);
 }
 .navbar-text button {
-  font-weight: 700;
+  font-weight: 600;
   color: #fff;
   border: 1px solid #fff;
-  padding: 18px 34px;
-  font-size: 18px;
+  padding: 12px 30px;
+  font-size: 16px;
   margin-left: 18px;
   position: relative;
   background-color: transparent;
@@ -241,6 +241,69 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
 }
 
+@media only screen and (max-width: 768px) {
+  nav.navbar {
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: 0.32s ease-in-out;
+  }
+  nav.navbar img {
+    height: 60px;
+    width: auto;
+  }
+  nav.navbar a.navbar-brand {
+    width: 10%;
+  }
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    font-weight: 400;
+    color: #fff !important;
+    letter-spacing: 0.6px;
+    padding: 10px;
+    font-size: 12px;
+    opacity: 0.95;
+  }
+
+  .navbar-text button {
+    font-weight: 600;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 18px;
+    position: relative;
+    background-color: transparent;
+    transition: 0.3s ease-in-out;
+  }
+  .social-icon a img {
+    display: flex;
+    width: 25%;
+    z-index: 1;
+    transition: 0.3s ease-in-out;
+  }
+}
+
+@media only screen and (max-width: 428px) {
+  nav.navbar {
+    padding: 2px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    transition: 0.32s ease-in-out;
+  }
+  nav.navbar img {
+    height: 40px;
+    width: auto;
+  }
+  .social-icon a img {
+    width: 35%;
+    z-index: 1;
+    transition: 0.3s ease-in-out;
+  }
+}
+
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
@@ -256,13 +319,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
-  padding: 18px 10px;
+  padding: 10px;
   font-size: 20px;
   margin-bottom: 16px;
   display: inline-block;
 }
 .banner h1 {
-  padding: 10px;
   font-size: 40px;
   font-weight: 500;
   letter-spacing: 0.1px;
@@ -287,7 +349,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   align-items: center;
 }
 .banner button svg {
-  font-size: 25px;
+  font-size: 20px;
   margin-left: 10px;
   transition: 0.3s ease-in-out;
   line-height: 1;
@@ -298,10 +360,161 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .txt-rotate > .wrap {
   border-right: 0.05em solid #666;
 }
+@media only screen and (max-width: 768px) {
+  .banner {
+    margin-top: 0;
+    padding: 15% 5% 15% 10%;
+    background: black;
+    background-position: top center;
+    background-size: cover;
+    background-image: url("./assets/img/fondo.png");
+    background-repeat: repeat;
+    background-size: 100% 100%;
+  }
+  .banner .tagline {
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    padding: 10px;
+    font-size: 22px;
+    margin-bottom: 16px;
+    display: inline-block;
+  }
+  .banner h1 {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+  }
+  .banner p {
+    color: #d4c7c7;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    line-height: 1.5em;
+    width: 100%;
+  }
+  .foto {
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 428px) {
+  .banner {
+    margin-top: 0;
+    padding: 15% 5%;
+  }
+  .banner .tagline {
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    padding: 10px;
+    font-size: 22px;
+    margin-bottom: 16px;
+    display: inline-block;
+  }
+  .banner h1 {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+  }
+  .banner p {
+    color: #d4c7c7;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    line-height: 1.5em;
+    width: 100%;
+  }
+  .foto {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+  }
+}
+
+/*Certifications */
+.academic {
+  padding: 4% 8% 8% 4%;
+  background: linear-gradient(90.21deg, #000104 -74.91%, #03123a 111.58%);
+}
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.courses-box {
+  width: 270px;
+  list-style-type: none;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.courses-box li {
+  background-color: transparent;
+  list-style: none;
+}
+.course-img {
+  margin: 0;
+  padding: 5px;
+}
+.course-img img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 170px;
+  border-radius: 10px;
+}
+.course-title {
+  text-align: center;
+  padding: 5px;
+}
+.course-title h4 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+}
+.course-subtitle p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+  padding: 10px 10px;
+}
+.courses-box li {
+  background-color: transparent;
+  list-style: none;
+}
+@media only screen and (max-width: 768px) {
+  .courses-box {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 428px) {
+  .courses-box {
+    width: 100%;
+  }
+  .course-img img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+    border-radius: 10px;
+  }
+}
 
 /************ Skills Css ************/
 .skill {
-  padding: 18px 0 50px 0;
+  padding: 18px 0 120px 0;
   position: relative;
   margin-top: 0;
   background: #252934;
@@ -310,15 +523,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .skill-bx {
   background-color: #121212;
-  border-radius: 64px;
+  border-radius: 24px;
   text-align: center;
-  padding: 60px 50px;
-  margin-top: -60px;
+  padding: 40px 20px 40px;
+  margin-top: 60px;
 }
 .skill h2 {
   padding: 50px 10px 24px 0;
-  font-size: 38px;
-  font-weight: 700;
+  font-size: 36px;
+  font-weight: 600;
 }
 .skill p {
   color: #b8b8b8;
@@ -330,24 +543,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 80%;
 }
 .skill-slider {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   position: relative;
 }
 .skill-slider .item img {
-  width: 30%;
-  margin: 0 auto 15px auto;
+  width: 20%;
+  margin: 0 auto 18px auto;
 }
 .background-image-left {
-  top: 28%;
+  top: 38%;
   position: absolute;
   bottom: 0;
   width: 40%;
   z-index: -4;
 }
 .slider {
-  width: 50%;
-  height: 50px;
+  width: 40%;
+  height: 40px;
   overflow: hidden;
   position: relative;
 }
@@ -368,80 +581,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
-/*Certifications */
-.academic {
-  padding: 120px 10px 240px 0;
-  background: linear-gradient(90.21deg, #000104 -74.91%, #03123a 111.58%);
-}
-.section-title {
-  text-align: center;
-  font-size: 2.4rem;
-  font-weight: 700;
-  margin-bottom: 40px;
-}
-.image-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-}
-.courses-box {
-  width: 400px;
-  list-style-type: none;
-  border-radius: 10px;
-  overflow: hidden;
-}
-.courses-box li {
-  background-color: transparent;
-  list-style: none;
-}
-.course-img {
-  margin: 0;
-  padding: 10px;
-}
-.course-img img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 300px;
-  max-height: 100%;
-  max-width: 100%;
-  border-radius: 10px;
-}
-.course-title {
-  text-align: center;
-  padding: 20px;
-}
-.course-title h4 {
-  font-size: 1.2rem;
-  font-weight: 600;
-  margin: 0;
-}
-.course-subtitle p {
-  font-size: 1.1rem;
-  font-weight: 400;
-  margin: 0;
-  text-align: center;
-  padding: 10px 20px;
-}
-.courses-box li {
-  background-color: transparent;
-  list-style: none;
-}
-@media only screen and (max-width: 768px) {
-  .courses-box {
-    width: 45%;
-  }
-}
-@media only screen and (max-width: 576px) {
-  .courses-box {
-    width: 100%;
-  }
-}
-
 /************ Projects Css ************/
 .project {
-  padding: 120px 10px 240px 0;
+  padding: 60px 10px 60px;
   position: relative;
   background: black;
   background-position: top center;
@@ -451,8 +593,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-size: 100% 100%;
 }
 .project h2 {
-  font-size: 45px;
-  font-weight: 700;
+  font-size: 36px;
+  font-weight: 600;
   text-align: center;
 }
 .project p {
@@ -468,14 +610,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom: 10px;
 }
 .project .nav.nav-pills {
-  width: 72%;
+  width: 70%;
   margin: 0 auto;
-  border-radius: 50px;
+  border-radius: 25px;
   background-color: #000000;
   overflow: hidden;
 }
 .project .nav.nav-pills .nav-item {
-  width: 33.33333%;
+  width: 50%;
 }
 .project .nav.nav-pills .nav-link {
   background-color: transparent;
@@ -505,24 +647,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project .nav.nav-pills .nav-link.active::before {
   width: 100% !important;
 }
-.project .nav.nav-pills .nav-link.active {
-  border: 1px solid rgb(246, 246, 247);
-}
-.nav-link#projects-tabs-tab-first {
-  border: 1px solid rgb(248, 249, 250);
-  border-radius: 55px 0px 0px 55px;
-}
-.nav-link#projects-tabs-tab-second {
-  border-top: 1px solid rgb(255, 255, 255);
-  border-bottom: 1px solid rgb(255, 255, 255);
-}
-.nav-link#projects-tabs-tab-third {
-  border: 1px solid rgb(255, 255, 255);
-  border-radius: 0 55px 55px 0;
-}
+
 .proj-imgbx {
   position: relative;
-  border-radius: 30px;
+  border-radius: 10px;
   overflow: hidden;
   margin-bottom: 24px;
 }
@@ -541,7 +669,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-txtx {
   position: absolute;
   text-align: center;
-  top: 65%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   transition: 0.5s ease-in-out;
@@ -553,7 +681,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 1;
 }
 .proj-txtx h4 {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
   letter-spacing: 0.7px;
   line-height: 1.1em;
@@ -576,14 +704,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Contact Css ************/
 .contact {
   background: linear-gradient(90.21deg, #000104 -74.91%, #03123a 111.58%);
-  padding: 120px 10px 240px 0;
+  padding: 50px 60px 60px 30px;
 }
 .contact img {
-  width: 92%;
+  display: block;
+  width: 72%;
+  margin: 0 auto;
 }
 .contact h2 {
-  font-size: 45px;
-  font-weight: 700;
+  font-size: 35px;
+  font-weight: 600;
   margin-bottom: 30px;
 }
 .contact form input,
@@ -620,7 +750,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   color: #000;
   background-color: #fff;
-  padding: 14px 48px;
+  padding: 14px 30px;
   font-size: 18px;
   margin-top: 25px;
   border-radius: 0;
@@ -646,81 +776,31 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.3s ease-in-out;
 }
 .contact form button:hover::before {
-  width: 100%;
+  width: 90%;
 }
 
 /************ Footer Css ************/
 .footer {
-  padding: 50px 0 50px 0;
+  display: flex;
+  padding: 40px 0 40px 0;
   background: #121212;
 }
-.newsletter-bx {
-  background: #ffffff;
-  border-radius: 55px;
-  color: #121212;
-  padding: 85px 125px;
-  margin-bottom: 80px;
-  margin-top: -122px;
-}
-.newsletter-bx h3 {
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  line-height: 1.2em;
-}
-.new-email-bx {
-  background: #fff;
-  padding: 5px;
-  border-radius: 20px;
-  position: relative;
-  z-index: 0;
-  display: flex;
-  align-items: center;
-}
-.new-email-bx::before {
-  content: "";
-  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
-  border-radius: 20px;
-  position: absolute;
-  z-index: -1;
-  top: -1px;
-  left: -1px;
-  bottom: -1px;
-  right: -1px;
-}
-.new-email-bx::after {
-  content: "";
-  background: #fff;
-  border-radius: 20px;
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
-.new-email-bx input {
-  width: 100%;
-  color: #121212;
-  font-weight: 500;
-  background: transparent;
-  border: 0;
-  padding: 0 15px;
-}
-.new-email-bx button {
-  background: linear-gradient(90.21deg, #0d288b -5.91%, #033a15 111.58%);
-  padding: 20px 65px;
-  color: #fff;
-  font-weight: 500;
-  letter-spacing: 0.5px;
-  border-radius: 18px;
-}
+
 .footer img {
-  width: 45%;
+  width: 60px;
 }
 .footer p {
   font-weight: 400;
   font-size: 14px;
   color: #b8b8b8;
   letter-spacing: 0.5px;
-  margin-top: 20px;
+  margin-top: 10px;
+}
+
+@media (max-width: 428px) {
+  .logo-footer {
+    display: block;
+    padding-top: 20px;
+    margin: 0 auto;
+  }
 }

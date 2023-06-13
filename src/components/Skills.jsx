@@ -39,11 +39,11 @@ export const Skills = () => {
               <br />
               <p>
                 Soy un desarrollador web con experiencia en React, HTML,
-                Javascript, CSS, Nodejs, Python, MySQL, MongoDB . Con
+                Javascript, CSS, Nodejs, Python, MySQL, MongoDB , Git. Con
                 habilidades para desarrollar soluciones creativas y escalables
                 utilizando estas tecnologías. Me apasiona aprender nuevas
                 tecnologías y aplicarlas para resolver problemas de manera
-                eficiente y efectiva.{" "}
+                eficiente y efectiva.
               </p>
               <br />
               <Carousel
@@ -75,13 +75,10 @@ export const Skills = () => {
                 </div>
               </Carousel>
               <br />
-              
             </div>
           </div>
         </div>
       </div>
-      
     </section>
-    
   );
 };
