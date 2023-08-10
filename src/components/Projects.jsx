@@ -15,7 +15,7 @@ export const Projects = () => {
       title: "Muebles Maldonado",
       description: "Development React/Javascript/Material UI/MongoDB",
       imgUrl: muebles,
-      buttonLink: "#",
+      buttonLink: "https://mueblesmaldonado.netlify.app/",
       LinkCode: "https://github.com/EriMaldonado/frontend-mueblesmaldonado",
     },
     {
