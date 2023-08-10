@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0f792813.css",
-    "main.js": "/portfolio/static/js/main.976907b6.js",
+    "main.css": "/portfolio/static/css/main.a7c7a2a6.css",
+    "main.js": "/portfolio/static/js/main.ccbb4f42.js",
     "static/js/787.fb771931.chunk.js": "/portfolio/static/js/787.fb771931.chunk.js",
     "static/media/erick.png": "/portfolio/static/media/erick.9320f87cdd9d3bb7320d.png",
     "static/media/alura-geek.png": "/portfolio/static/media/alura-geek.8c40bf68182478314c06.png",
     "static/media/frontend-g4.png": "/portfolio/static/media/frontend-g4.67f2d4a4c67e3545d057.png",
     "static/media/rick-morty-app.png": "/portfolio/static/media/rick-morty-app.9072d823c347d782e95b.png",
     "static/media/github.png": "/portfolio/static/media/github.6b75f2e57aa39e96a117.png",
+    "static/media/mueblesmaldonado.png": "/portfolio/static/media/mueblesmaldonado.591d83605161cb7c4b12.png",
     "static/media/curso-python.png": "/portfolio/static/media/curso-python.6a1d312b6d66edd3ff38.png",
     "static/media/api-pixabay.png": "/portfolio/static/media/api-pixabay.49900690ca2a0c51449e.png",
     "static/media/CentraNo2-Bold.ttf": "/portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
@@ -29,12 +30,12 @@
     "static/media/nav-icon2.svg": "/portfolio/static/media/nav-icon2.c734715bc91913916a1601f967847de5.svg",
     "index.html": "/portfolio/index.html",
     "static/media/nav-icon1.svg": "/portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.0f792813.css.map": "/portfolio/static/css/main.0f792813.css.map",
-    "main.976907b6.js.map": "/portfolio/static/js/main.976907b6.js.map",
+    "main.a7c7a2a6.css.map": "/portfolio/static/css/main.a7c7a2a6.css.map",
+    "main.ccbb4f42.js.map": "/portfolio/static/js/main.ccbb4f42.js.map",
     "787.fb771931.chunk.js.map": "/portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f792813.css",
-    "static/js/main.976907b6.js"
+    "static/css/main.a7c7a2a6.css",
+    "static/js/main.ccbb4f42.js"
   ]
 }
