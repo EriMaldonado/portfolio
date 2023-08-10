@@ -12,6 +12,7 @@ Built using:
 ## Autor ✒️
 **Erick Maldonado**
 
-* [erick_gabriel5@yahoo.com](erick_gabriel5@yahoo.com)
+* [erickgabrielmaldonado1@gmail.com](erickgabrielmaldonado1@gmail.com)
 * [LinkedIn](https://www.linkedin.com/in/erickmaldonado1/)
 * [Porfolio web](https://erimaldonado.github.io/portfolio)
+
