@@ -80,12 +80,7 @@ select:focus {
     padding: 0 150px;
   }
 }
-p.success {
-  color: green;
-}
-p.danger {
-  color: red;
-}
+
 
 /************ Navbar Css ************/
 nav.navbar {
@@ -334,7 +329,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner p {
   color: #d4c7c7;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 100%;
@@ -343,7 +338,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #fff;
   font-weight: 700;
   font-size: 20px;
-  margin-top: 60px;
+  margin-top: 30px;
   letter-spacing: 0.8px;
   display: flex;
   align-items: center;

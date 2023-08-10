@@ -5,13 +5,11 @@ import front from "../assets/img/front.png";
 import node from "../assets/img/node.png";
 import react from "../assets/img/react.png";
 import javascript from "../assets/img/javascript.png";
-
 import css from "../assets/img/css.png";
 
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
@@ -36,16 +34,21 @@ export const Skills = () => {
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
               <h2>Habilidades Técnicas</h2>
-              <br />
-              <p>
-                Soy un desarrollador web con experiencia en React, HTML,
-                Javascript, CSS, Nodejs, Python, MySQL, MongoDB , Git. Con
-                habilidades para desarrollar soluciones creativas y escalables
-                utilizando estas tecnologías. Me apasiona aprender nuevas
-                tecnologías y aplicarlas para resolver problemas de manera
-                eficiente y efectiva.
-              </p>
-              <br />
+              <div className="skills-description">
+                <p>
+                  Soy un desarrollador web con experiencia en React, HTML,
+                  JavaScript, CSS, Node.js, Python, MySQL y MongoDB. También he
+                  trabajado con herramientas de diseño como Figma y Adobe
+                  Illustrator, y tengo conocimientos en análisis de datos
+                  utilizando PowerBI y Wireshark para el análisis de tráfico.
+                  Además, tengo experiencia en el uso de Visual Studio Code y
+                  otras herramientas de desarrollo, y he trabajado en entornos
+                  de colaboración como AWS, GCP y Oracle Cloud. Me apasiona
+                  aprender nuevas tecnologías y aplicarlas de manera creativa
+                  para resolver problemas de manera eficiente y efectiva.
+                </p>
+                <br/>
+              </div>
               <Carousel
                 responsive={responsive}
                 infinite={true}

@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import erick from "../assets/img/erick.png";
 import { ArrowRightCircle } from "react-bootstrap-icons";
@@ -51,6 +51,13 @@ export const Banner = () => {
     }
   };
 
+  const handleDownload = () => {
+    window.open(
+      "https://drive.google.com/file/d/1gXI7zEpXMXj7XylLQo3cpBuyaEwIab-B/view?usp=sharing",
+      "_blank"
+    );
+  };
+
   return (
     <section className="banner" id="home">
       <Container>
@@ -77,12 +84,11 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p style={{ textAlign: "justify" }}>
-                    Soy un estudiante de Ingeniería en Tecnologías de la
-                    Información. Me considero un colaborador comprometido y
-                    enfocado en el crecimiento personal y profesional, que busca
-                    constantemente desafíos y oportunidades para aprender y
-                    mejorar.
+                  Como profesional en Tecnologías de la Información, me caracterizo por ser proactivo y comprometido. Valoro el trabajo en equipo y enfrento los desafíos como oportunidades para crecer y alcanzar mis objetivos. Siempre busco ampliar mis conocimientos y mejorar mis habilidades, aprovechando al máximo las herramientas y recursos a mi disposición.
                   </p>
+                  <button onClick={handleDownload}>
+                    Descargar Hoja de Vida <ArrowRightCircle size={25} />
+                  </button>
                   <button onClick={() => (window.location.href = "#connect")}>
                     Contacto <ArrowRightCircle size={25} />
                   </button>
