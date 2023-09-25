@@ -15,7 +15,7 @@ export const Projects = () => {
       title: "Muebles Maldonado",
       description: "Development React/Javascript/Material UI/MongoDB",
       imgUrl: muebles,
-      buttonLink: "#",
+      buttonLink: "https://mueblesmaldonado.netlify.app/",
       LinkCode: "https://github.com/EriMaldonado/frontend-mueblesmaldonado",
     },
     {
@@ -75,7 +75,7 @@ export const Projects = () => {
                     ha permitido adquirir habilidades en diferentes areas del
                     desarrollo web. En está sección encontraras una selección de
                     mis proyectos cada uno con su propia historia y desafíos
-                    únicos
+                    únicos.
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav

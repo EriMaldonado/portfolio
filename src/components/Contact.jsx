@@ -104,7 +104,7 @@ export const Contact = () => {
                       <textarea
                         name="message"
                         placeholder="Mensaje"
-                        cols="30"
+                        cols="20"
                         rows="10"
                       ></textarea>
 

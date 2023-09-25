@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import erick from "../assets/img/erick.png";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -53,7 +52,7 @@ export const Banner = () => {
 
   const handleDownload = () => {
     window.open(
-      "https://drive.google.com/file/d/1gXI7zEpXMXj7XylLQo3cpBuyaEwIab-B/view?usp=sharing",
+      "https://drive.google.com/file/d/1bA9rn4AjANYVjK-FLcxqmAfYs5NI6ors/view?usp=sharing",
       "_blank"
     );
   };
@@ -61,8 +60,8 @@ export const Banner = () => {
   return (
     <section className="banner" id="home">
       <Container>
-        <Row className="aligh-items-center">
-          <Col xs={12} md={6} xl={7}>
+        <Row className="align-items-center">
+          <Col xs={12} md={6} lg={10}>
             <TrackVisibility>
               {({ isVisible }) => (
                 <div
@@ -84,27 +83,21 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p style={{ textAlign: "justify" }}>
-                  Como profesional en Tecnologías de la Información, me caracterizo por ser proactivo y comprometido. Valoro el trabajo en equipo y enfrento los desafíos como oportunidades para crecer y alcanzar mis objetivos. Siempre busco ampliar mis conocimientos y mejorar mis habilidades, aprovechando al máximo las herramientas y recursos a mi disposición.
+                    Como profesional en Tecnologías de la Información, me
+                    caracterizo por mi compromiso y actitud proactiva. Considero
+                    que el trabajo en equipo es fundamental para lograr
+                    resultados sobresalientes. Los desafíos me motivan, los veo
+                    como oportunidades para crecer y alcanzar mis metas. Me
+                    esfuerzo continuamente por expandir mis conocimientos y
+                    mejorar mis habilidades, aprovechando al máximo las
+                    herramientas y recursos disponibles.
                   </p>
                   <button onClick={handleDownload}>
-                    Descargar Hoja de Vida <ArrowRightCircle size={25} />
+                    Descargar Hoja de Vida <ArrowRightCircle size={22} />
                   </button>
                   <button onClick={() => (window.location.href = "#connect")}>
-                    Contacto <ArrowRightCircle size={25} />
+                    Contacto <ArrowRightCircle size={22} />
                   </button>
-                </div>
-              )}
-            </TrackVisibility>
-          </Col>
-          <Col xs={12} md={6} xl={5}>
-            <TrackVisibility>
-              {({ isVisible }) => (
-                <div
-                  className={
-                    isVisible ? "animate__animated animate__zoomIn" : ""
-                  }
-                >
-                  <img className="foto" src={erick} alt="foto" />
                 </div>
               )}
             </TrackVisibility>
