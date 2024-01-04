@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9d0f7ecf.css",
-    "main.js": "/portfolio/static/js/main.1ba7cf65.js",
+    "main.css": "/portfolio/static/css/main.b89feadc.css",
+    "main.js": "/portfolio/static/js/main.5793b363.js",
     "static/js/787.fb771931.chunk.js": "/portfolio/static/js/787.fb771931.chunk.js",
     "static/media/alura-geek.png": "/portfolio/static/media/alura-geek.8c40bf68182478314c06.png",
     "static/media/frontend-g4.png": "/portfolio/static/media/frontend-g4.67f2d4a4c67e3545d057.png",
@@ -13,7 +13,6 @@
     "static/media/CentraNo2-Bold.ttf": "/portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/webso.png": "/portfolio/static/media/webso.9bec6cf7a173fe0751fe.png",
-    "static/media/gogle-mkt.png": "/portfolio/static/media/gogle-mkt.2efb73b085f9e727e1b8.png",
     "static/media/principal.png": "/portfolio/static/media/principal.e40bb79a39a42db701f7.png",
     "static/media/fondo.png": "/portfolio/static/media/fondo.acb6d75e7ef9c9409a30.png",
     "static/media/contact-img.svg": "/portfolio/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
@@ -28,12 +27,12 @@
     "static/media/nav-icon2.svg": "/portfolio/static/media/nav-icon2.c734715bc91913916a1601f967847de5.svg",
     "index.html": "/portfolio/index.html",
     "static/media/nav-icon1.svg": "/portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.9d0f7ecf.css.map": "/portfolio/static/css/main.9d0f7ecf.css.map",
-    "main.1ba7cf65.js.map": "/portfolio/static/js/main.1ba7cf65.js.map",
+    "main.b89feadc.css.map": "/portfolio/static/css/main.b89feadc.css.map",
+    "main.5793b363.js.map": "/portfolio/static/js/main.5793b363.js.map",
     "787.fb771931.chunk.js.map": "/portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d0f7ecf.css",
-    "static/js/main.1ba7cf65.js"
+    "static/css/main.b89feadc.css",
+    "static/js/main.5793b363.js"
   ]
 }
