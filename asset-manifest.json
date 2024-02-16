@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.77eae01e.css",
-    "main.js": "/portfolio/static/js/main.7ab7b572.js",
+    "main.css": "/portfolio/static/css/main.77451fc6.css",
+    "main.js": "/portfolio/static/js/main.e81a1741.js",
     "static/js/787.fb771931.chunk.js": "/portfolio/static/js/787.fb771931.chunk.js",
+    "static/media/mueblesmaldonado.png": "/portfolio/static/media/mueblesmaldonado.536ae44208ffe3404f99.png",
     "static/media/alura-geek.png": "/portfolio/static/media/alura-geek.8c40bf68182478314c06.png",
     "static/media/frontend-g4.png": "/portfolio/static/media/frontend-g4.67f2d4a4c67e3545d057.png",
     "static/media/rick-morty-app.png": "/portfolio/static/media/rick-morty-app.9072d823c347d782e95b.png",
     "static/media/github.png": "/portfolio/static/media/github.6b75f2e57aa39e96a117.png",
-    "static/media/mueblesmaldonado.png": "/portfolio/static/media/mueblesmaldonado.591d83605161cb7c4b12.png",
     "static/media/curso-python.png": "/portfolio/static/media/curso-python.6a1d312b6d66edd3ff38.png",
     "static/media/api-pixabay.png": "/portfolio/static/media/api-pixabay.49900690ca2a0c51449e.png",
     "static/media/CentraNo2-Bold.ttf": "/portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
@@ -20,19 +20,22 @@
     "static/media/itin.png": "/portfolio/static/media/itin.608a91222f1aab8e6978.png",
     "static/media/cisco.png": "/portfolio/static/media/cisco.b085521c173c0d99357a.png",
     "static/media/logo.png": "/portfolio/static/media/logo.6098267abe78fd9a85bb.png",
+    "static/media/typescript.png": "/portfolio/static/media/typescript.418d8e136af2ef5310c8.png",
     "static/media/revicons.eot": "/portfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/nextjs.png": "/portfolio/static/media/nextjs.70a93475e8c739b65181.png",
+    "static/media/mysql.png": "/portfolio/static/media/mysql.8ca52c25afffafaa83f1.png",
     "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/nav-icon3.svg": "/portfolio/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
     "static/media/nav-icon2.svg": "/portfolio/static/media/nav-icon2.c734715bc91913916a1601f967847de5.svg",
     "index.html": "/portfolio/index.html",
     "static/media/nav-icon1.svg": "/portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.77eae01e.css.map": "/portfolio/static/css/main.77eae01e.css.map",
-    "main.7ab7b572.js.map": "/portfolio/static/js/main.7ab7b572.js.map",
+    "main.77451fc6.css.map": "/portfolio/static/css/main.77451fc6.css.map",
+    "main.e81a1741.js.map": "/portfolio/static/js/main.e81a1741.js.map",
     "787.fb771931.chunk.js.map": "/portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77eae01e.css",
-    "static/js/main.7ab7b572.js"
+    "static/css/main.77451fc6.css",
+    "static/js/main.e81a1741.js"
   ]
 }
